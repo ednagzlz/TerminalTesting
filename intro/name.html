@@ -1,0 +1,42 @@
+
+<!-- SCRIPT  -->
+<!-- opening with script will allow the browser to know its javascript, instead of html  -->
+<!-- still name the ending file .HTML -->
+
+<script>
+
+
+
+first= prompt("what is your first name?");
+last= prompt("what is your last name?");
+
+
+//FIRST NAME
+if(first.length>=3) {
+	document.write("Great job! Your first name is at least 3 characters!")
+}
+else { //means otherwise, if the "If" statement is not meant then we tell them:
+	document.write("Sorry! Your first name must be at least 3 characters or more :(")
+}
+
+
+
+
+//LAST NAME
+if(last.length>5) {
+	document.write("great job!Your first name is at least 3 characters!")
+}
+else { 
+document.write("Sorry, Your first name must be at least 3 characters or more :(")
+}
+
+
+
+//taking both at the same time first && last
+//if(first.length>=3 && last.length>5)
+
+// last 
+first.length;
+last.length;
+alert("your name is " + first + " " + last);
+</script>

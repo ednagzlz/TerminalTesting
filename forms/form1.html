@@ -1,0 +1,132 @@
+<!-- BEGIN -->
+<form id="myform">
+
+<label for="yourname">Name</label> 
+<input type="text" id="yourname" />
+
+
+<p>Gender:</p>
+<label for="male">Male </label>
+<input type="radio" name="gender" value="male" id="male" />
+
+<label for="female">Female </label><input type="radio" name="gender" value="female" id="female" /> 
+<!-- if you add another ID, itll allow you to select multiple circles because it won't think its apart of that family ID.  -->
+
+<!-- labels are used to connect words with input (clickable)  -->
+
+
+
+<p>Vehicle</p>
+<!-- this type is checkbox, 
+	it will not connect the words with the checkbox like the radio type -->
+<label for="bike">Bike </label><input type="checkbox"  name="vehicle" value="Bike" id="bike" />
+
+<label for="car">Car </label><input type="checkbox" name="vehicle" value="Car" id="car"/>
+
+<label for="Rowboat">Rowboat </label><input type="checkbox"  name="vehicle" value=Rowboat id="Rowboat" />
+
+<label for="Plane">Plane </label><input type="checkbox" name="vehicle" value="Plane" id="Plane"/>
+
+
+<!-- drop down -->
+<p>What is the make of your car?</p>
+<select id="car">
+<option value="select one">---select---</option>
+ <option value="ford">Ford</option>
+ <option value="volvo">Volvo</option>
+ <option value="saab">Saab</option>
+ <option value="hyundai">Hyundai</option>
+ <option value="mercedes">Mercedes</option>
+ <option value="audi">Audi</option>
+ <option value="other">other</option>
+</select>
+
+
+
+
+<!-- submit buttons
+	<button type="submit">Submit</button><button type="reset">Reset</button>
+		--this option will allow you to add an icon on the submit portion (like in the comment, white part where the visual text is) or some sort of html. 
+	or
+
+	<input type="submit" value="Submit"><input type="reset" value="Reset">
+ -->
+<input type="submit" value="Submit"><input type="reset" value="Reset">
+
+
+</form> 
+<!-- END -->
+
+
+
+
+
+
+
+
+
+<!-- BEGIN -->
+
+
+
+
+
+
+
+
+
+
+<!-- THIS IS A COMMONLY SEEN FORM -->
+<!-- BELOW -->
+<div class="container">
+  <form>
+    <div class="form-group row">
+      <label for="email" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Email">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="password" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="password" placeholder="Password">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2">Radios</label>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1" checked>
+            Option one
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2">
+            Option two
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3">
+            Option three 
+          </label>
+        </div>
+      </div>
+</div>
+  
+    
+<div class="form-group row">
+      <div class="offset-sm-2 col-sm-10">
+        <button type="submit">Sign in</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+

@@ -1,0 +1,38 @@
+<style>
+body {
+background-color: lightblue;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("code.jpg");
+color: white;
+}
+</style>
+
+<script>
+
+if (result == 0) {result2 = "I don't think you studied."};
+if (result == 20) {result2 = "You need to spend more time. Try again."};
+if (result == 40) {result2 = "I think you could do better. Try again."};
+if (result == 60) {result2 = "Not great. Try again."};
+if (result == 80) {result2 = "So close. Try again."};
+if (result == 100) {result2 = "Excellent! You're a JavaScript pro!"};
+document.getElementById("grade2").innerHTML = result2; 
+
+</script>

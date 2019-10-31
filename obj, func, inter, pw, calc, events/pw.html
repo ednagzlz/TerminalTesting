@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My JavaScript</title>
+</head>
+<body>
+<p><span id="newpw"></span></p>
+<script>
+pw = prompt("Enter a password. Must have 8 or more characters");
+  
+  if(pw.length >= 8) {
+   document.getElementById('newpw').innerHTML = "Your password is accepted."; 
+  }
+  else {
+  document.getElementById('newpw').innerHTML  = "Your password is rejected."; 
+  }
+</script>
+</body>
+</html>
+
